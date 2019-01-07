@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4D0B738321E3048F007F7375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B738221E3048F007F7375 /* AppDelegate.swift */; };
-		4D0B738521E3048F007F7375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B738421E3048F007F7375 /* ViewController.swift */; };
+		4D0B738521E3048F007F7375 /* ViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B738421E3048F007F7375 /* ViewController0.swift */; };
 		4D0B738821E3048F007F7375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B738621E3048F007F7375 /* Main.storyboard */; };
 		4D0B738A21E30490007F7375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B738921E30490007F7375 /* Assets.xcassets */; };
 		4D0B738D21E30490007F7375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B738B21E30490007F7375 /* LaunchScreen.storyboard */; };
 		4D0B739821E30490007F7375 /* MontyHallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B739721E30490007F7375 /* MontyHallTests.swift */; };
+		4D0B73A521E30A11007F7375 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B73A421E30A11007F7375 /* ViewController1.swift */; };
+		4D0B73A721E311F5007F7375 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B73A621E311F5007F7375 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,7 @@
 /* Begin PBXFileReference section */
 		4D0B737F21E3048F007F7375 /* MontyHall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MontyHall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0B738221E3048F007F7375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D0B738421E3048F007F7375 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D0B738421E3048F007F7375 /* ViewController0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController0.swift; sourceTree = "<group>"; };
 		4D0B738721E3048F007F7375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D0B738921E30490007F7375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D0B738C21E30490007F7375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		4D0B739321E30490007F7375 /* MontyHallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MontyHallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0B739721E30490007F7375 /* MontyHallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontyHallTests.swift; sourceTree = "<group>"; };
 		4D0B739921E30490007F7375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0B73A421E30A11007F7375 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		4D0B73A621E311F5007F7375 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				4D0B738221E3048F007F7375 /* AppDelegate.swift */,
-				4D0B738421E3048F007F7375 /* ViewController.swift */,
+				4D0B738421E3048F007F7375 /* ViewController0.swift */,
+				4D0B73A421E30A11007F7375 /* ViewController1.swift */,
+				4D0B73A621E311F5007F7375 /* ViewController2.swift */,
 				4D0B738621E3048F007F7375 /* Main.storyboard */,
 				4D0B738921E30490007F7375 /* Assets.xcassets */,
 				4D0B738B21E30490007F7375 /* LaunchScreen.storyboard */,
@@ -197,7 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0B738521E3048F007F7375 /* ViewController.swift in Sources */,
+				4D0B73A521E30A11007F7375 /* ViewController1.swift in Sources */,
+				4D0B73A721E311F5007F7375 /* ViewController2.swift in Sources */,
+				4D0B738521E3048F007F7375 /* ViewController0.swift in Sources */,
 				4D0B738321E3048F007F7375 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
