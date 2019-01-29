@@ -9,7 +9,7 @@
 import UIKit;
 
 class ViewController2: UIViewController {
-    var win: Bool?;   //from ViewConttroller1; true if the user won the cadillac
+    var win: Bool?;   //from ViewController1; true if the user won the cadillac
 
     @IBOutlet weak var imageView: UIImageView!;
     
